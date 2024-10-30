@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Verifica si el número es Par o Impar
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-input type="number" min="1" max="100" [(ngModel)]="num" placeholder="Introduce un número del 1 al 100"></ion-input>
+    <ion-button class="boton" expand="block" (click)="verificaParidad()">Verificar</ion-button>
+    
+    <div *ngIf="esPar !== null">
+      <ion-card *ngIf="esPar">
+        <ion-card-header>¡Es un número par!</ion-card-header>
+        <ion-card-content>
+          <img src="assets/par.png" alt="Imagen para número par" />
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="!esPar">
+        <ion-card-header>¡Es un número impar!</ion-card-header>
+        <ion-card-content>
+          <img src="assets/inpar.png" alt="Imagen para número impar" />
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
