@@ -1,0 +1,29 @@
+[
+    {
+      "name": "John Doe",
+      "age": 30,
+      "email": "johndoe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "country": "USA"
+      },
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+      "type": "admin"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "email": "janesmith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Othertown",
+        "state": "NY",
+        "country": "USA"
+      },
+      "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+      "type": "user"
+    }
+  ]
+  
