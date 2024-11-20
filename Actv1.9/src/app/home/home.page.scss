@@ -25,3 +25,74 @@
 #container a {
   text-decoration: none;
 }
+
+
+/* Estilos para pantallas medianas  */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #container strong {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  #container p {
+    font-size: 15px;
+    color: #7a7a7a;
+  }
+}
+
+/* Estilos para pantallas grandes  */
+@media (min-width: 1025px) {
+  #container strong {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  #container p {
+    font-size: 18px;
+    color: #6b6b6b;
+  }
+}
+
+
+/* Estilos para botones específicos */
+.boton-portrait {
+  display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-landscape {
+  display: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Mostrar boton-portrait en orientación vertical y ocultar boton-landscape */
+@media (orientation: portrait) {
+  .boton-portrait {
+    display: block;
+  }
+  
+  .boton-landscape {
+    display: none;
+  }
+}
+
+/* Mostrar boton-landscape en orientación horizontal y ocultar boton-portrait */
+@media (orientation: landscape) {
+  .boton-portrait {
+    display: none;
+  }
+
+  .boton-landscape {
+    display: block;
+  }
+}
