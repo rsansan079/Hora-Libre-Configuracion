@@ -1,0 +1,8 @@
+{
+  "name": "ej12",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
