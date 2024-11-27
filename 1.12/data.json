@@ -1,29 +1,106 @@
 [
-    {
-      "name": "John Doe",
-      "age": 30,
-      "email": "johndoe@example.com",
-      "address": {
-        "street": "123 Main St",
-        "city": "Anytown",
-        "state": "CA",
-        "country": "USA"
-      },
-      "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
-      "type": "admin"
+  {
+    "name": "Marc Márquez",
+    "age": 31,
+    "email": "marcmarquez@motogp.com",
+    "address": {
+      "street": "Carrer del Circuit",
+      "city": "Cervera",
+      "state": "Lleida",
+      "country": "Spain"
     },
-    {
-      "name": "Jane Smith",
-      "age": 25,
-      "email": "janesmith@example.com",
-      "address": {
-        "street": "456 Elm St",
-        "city": "Othertown",
-        "state": "NY",
-        "country": "USA"
-      },
-      "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
-      "type": "user"
-    }
-  ]
-  
+    "avatar": "https://www.motogp.com/en/riders/marc-marquez/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Francesco Bagnaia",
+    "age": 27,
+    "email": "peccobagnaia@motogp.com",
+    "address": {
+      "street": "Via della Velocità",
+      "city": "Chivasso",
+      "state": "Turin",
+      "country": "Italy"
+    },
+    "avatar": "https://www.motogp.com/en/riders/francesco-bagnaia/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Fabio Quartararo",
+    "age": 25,
+    "email": "fabioquartararo@motogp.com",
+    "address": {
+      "street": "Avenue des Champions",
+      "city": "Nice",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "avatar": "https://www.motogp.com/en/riders/fabio-quartararo/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Jorge Martín",
+    "age": 26,
+    "email": "jorgemartin@motogp.com",
+    "address": {
+      "street": "Calle de la Velocidad",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain"
+    },
+    "avatar": "https://www.motogp.com/en/riders/jorge-martin/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Jack Miller",
+    "age": 29,
+    "email": "jackmiller@motogp.com",
+    "address": {
+      "street": "Moto Lane",
+      "city": "Townsville",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "avatar": "https://www.motogp.com/en/riders/jack-miller/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Brad Binder",
+    "age": 28,
+    "email": "bradbinder@motogp.com",
+    "address": {
+      "street": "Speed Circuit",
+      "city": "Potchefstroom",
+      "state": "North West",
+      "country": "South Africa"
+    },
+    "avatar": "https://www.motogp.com/en/riders/brad-binder/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Enea Bastianini",
+    "age": 26,
+    "email": "eneabastianini@motogp.com",
+    "address": {
+      "street": "Via Rapida",
+      "city": "Rimini",
+      "state": "Emilia-Romagna",
+      "country": "Italy"
+    },
+    "avatar": "https://www.motogp.com/en/riders/enea-bastianini/photo",
+    "type": "rider"
+  },
+  {
+    "name": "Aleix Espargaró",
+    "age": 34,
+    "email": "aleixespargaro@motogp.com",
+    "address": {
+      "street": "Avinguda del Pilot",
+      "city": "Granollers",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "avatar": "https://www.motogp.com/en/riders/aleix-espargaro/photo",
+    "type": "rider"
+  }
+]
