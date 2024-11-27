@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "name": "Marc Márquez",
@@ -104,3 +105,111 @@
     "type": "rider"
   }
 ]
+=======
+[
+  {
+    "name": "Marc Márquez",
+    "age": 31,
+    "email": "marcmarquez@motogp.com",
+    "address": {
+      "street": "Carrer del Circuit",
+      "city": "Cervera",
+      "state": "Lleida",
+      "country": "Spain"
+    },
+    "avatar": "https://cdn-8.motorsport.com/images/mgl/0rG37m52/s800/marc-marquez-gresini-racing.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Francesco Bagnaia",
+    "age": 27,
+    "email": "peccobagnaia@motogp.com",
+    "address": {
+      "street": "Via della Velocità",
+      "city": "Chivasso",
+      "state": "Turin",
+      "country": "Italy"
+    },
+    "avatar": "https://cdn-4.motorsport.com/images/mgl/6AEjG1G6/s8/francesco-bagnaia-ducati-team.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Fabio Quartararo",
+    "age": 25,
+    "email": "fabioquartararo@motogp.com",
+    "address": {
+      "street": "Avenue des Champions",
+      "city": "Nice",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "avatar": "https://cdn-2.motorsport.com/images/mgl/YP3wdKQ2/s800/fabio-quartararo-yamaha-factor.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Jorge Martín",
+    "age": 26,
+    "email": "jorgemartin@motogp.com",
+    "address": {
+      "street": "Calle de la Velocidad",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain"
+    },
+    "avatar": "https://cdn-6.motorsport.com/images/mgl/2y3qrjK6/s800/jorge-martin-pramac-racing.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Jack Miller",
+    "age": 29,
+    "email": "jackmiller@motogp.com",
+    "address": {
+      "street": "Moto Lane",
+      "city": "Townsville",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "avatar": "https://cdn-1.motorsport.com/images/mgl/6xEgvy50/s8/jack-miller-red-bull-ktm-facto.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Brad Binder",
+    "age": 28,
+    "email": "bradbinder@motogp.com",
+    "address": {
+      "street": "Speed Circuit",
+      "city": "Potchefstroom",
+      "state": "North West",
+      "country": "South Africa"
+    },
+    "avatar": "https://cdn-8.motorsport.com/images/mgl/63vnlJEY/s800/brad-binder-red-bull-ktm-facto.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Enea Bastianini",
+    "age": 26,
+    "email": "eneabastianini@motogp.com",
+    "address": {
+      "street": "Via Rapida",
+      "city": "Rimini",
+      "state": "Emilia-Romagna",
+      "country": "Italy"
+    },
+    "avatar": "https://cdn-2.motorsport.com/images/mgl/6l9Xvb10/s800/enea-bastianini-ducati-team.jpg",
+    "type": "rider"
+  },
+  {
+    "name": "Aleix Espargaró",
+    "age": 34,
+    "email": "aleixespargaro@motogp.com",
+    "address": {
+      "street": "Avinguda del Pilot",
+      "city": "Granollers",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "avatar": "https://cdn-2.motorsport.com/images/mgl/YpNpqEA0/s800/aleix-espargaro-aprilia-racing.jpg",
+    "type": "rider"
+  }
+]
+>>>>>>> 2b7b2ced50fc3b9795941ce4593c6e3bdfbfe510
